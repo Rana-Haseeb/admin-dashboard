@@ -1,0 +1,53 @@
+// src/data/metricsData.js
+import { DollarSign, Users, ShoppingCart, Wifi } from "lucide-react";
+
+export const METRICS = [
+  {
+    id:         "revenue",
+    label:      "Total Revenue",
+    value:      "$84,291",
+    change:     "+12.5%",
+    changeType: "up",
+    icon:       DollarSign,
+    color:      "#7c3aed",
+    bg:         "rgba(124,58,237,0.08)",
+    border:     "rgba(124,58,237,0.18)",
+    glow:       "stat-glow-violet",
+  },
+  {
+    id:         "users",
+    label:      "Active Users",
+    value:      "12,847",
+    change:     "+8.2%",
+    changeType: "up",
+    icon:       Users,
+    color:      "#22d3ee",
+    bg:         "rgba(34,211,238,0.07)",
+    border:     "rgba(34,211,238,0.15)",
+    glow:       "stat-glow-cyan",
+  },
+  {
+    id:         "sales",
+    label:      "Sales",
+    value:      "3,284",
+    change:     "+5.7%",
+    changeType: "up",
+    icon:       ShoppingCart,
+    color:      "#10b981",
+    bg:         "rgba(16,185,129,0.07)",
+    border:     "rgba(16,185,129,0.15)",
+    glow:       "stat-glow-emerald",
+  },
+  {
+    id:         "sessions",
+    label:      "Active Sessions",
+    value:      "3,429",
+    change:     "-2.4%",
+    changeType: "down",
+    icon:       Wifi,
+    color:      "#f59e0b",
+    bg:         "rgba(245,158,11,0.07)",
+    border:     "rgba(245,158,11,0.15)",
+    glow:       "stat-glow-amber",
+  },
+];

@@ -2,6 +2,8 @@
 
 # ⚡ AdminPro
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://admin-dashboard-five-amber-69.vercel.app/)
+
 ### A Next-Generation React Admin Dashboard
 
 <br/>
